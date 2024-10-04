@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Book Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-color: #f4f4f4;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .best-sellers, .featured-books {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .best-sellers .books-container, .featured-books .books-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .book {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            width: 150px;
+            text-align: center;
+        }
+
+        .book img {
+            width: 100px; 
+            height: 150px; 
+            object-fit: cover; 
+            margin-bottom: 10px;
+        }
+
+        .book:hover {
+            background-color: #f4f4f4;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Book Heaven</h1>
+        <nav>
+            <a href="home page 2.html">Home</a>
+            <a href="login page.html">Login</a>
+            <a href="registration.html">Registration</a>
+            <a href="catalogue.html">Catalogue</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Welcome to Book Heaven</h1>
+        <p>Your one-stop shop for the best books, hand-picked just for you!</p>
+    </section>
+    <section class="best-sellers">
+        <h2>Best Sellers</h2>
+        <div class="books-container">
+            <div class="book">
+                <img src="an uncommon love.jpeg" alt="Best Seller 1">
+                <h3>Best Seller 1</h3>
+                <p>by Chitra Banerjee Divakaruni</p>
+            </div>
+            <div class="book">
+                <img src="knife.jpeg" alt="Best Seller 2">
+                <h3>Best Seller 2</h3>
+                <p>by Salman Rushdie</p>
+            </div>
+            <div class="book">
+                <img src="the architecture.jpeg" alt="Best Seller 3">
+                <h3>Best Seller 3</h3>
+                <p>by Arundhati roy</p>
+            </div>
+        </div>
+    </section>
+    <section class="featured-books">
+        <h2>Featured Books</h2>
+        <div class="books-container">
+            <div class="book">
+                <img src="arundhati roy book.jpg" alt="Featured Book 1">
+                <h3>The God of Small Things</h3>
+                <p>by Arundhati Roy</p>
+            </div>
+            <div class="book">
+                <img src="ruskin bond book.jpg" alt="Featured Book 2">
+                <h3>The Girl on the Train</h3>
+                <p>by Ruskin Bond</p>
+            </div>
+            <div class="book">
+                <img src="malgudi days.webp" alt="Featured Book 3">
+                <h3>Malgudi Days</h3>
+                <p>by Naranyan Murthy</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
